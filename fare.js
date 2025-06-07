@@ -6,9 +6,10 @@ const basefare=(50);
 const PerKilometerCharge=(15);
 const totalFare = basefare + ('distance * PerKilometerCharge');
  
-console.log('Base Fare:KES {50}');
-console.log('PerKilometerCharge:KES {15}');
-console.log('Trip Distance:{5}');
-console.log('Total Fare:{75}');
-console.log('Panda Pikipiki');
+console.log('Uko Kwote?Io ni {5}km');
+console.log('Ukikalia Pikipiki:KES{50}');
+console.log('Mpaka Uko: KES {75}');
+console.log('Total: KES {125}');
+console.log('Panda Pikipiki!')
+
 
