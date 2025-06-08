@@ -13,3 +13,5 @@ console.log('Total: KES {125}');
 console.log('Panda Pikipiki!')
 
 
+
+
