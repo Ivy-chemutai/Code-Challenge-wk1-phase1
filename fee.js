@@ -1,4 +1,4 @@
-// Function to estimate transaction fee based on the amount sent
+// Function to estimate the transaction fee based on the amount sent
 function estimateTransactionFee() {
   let input = prompt("Unatuma Ngapi?")
   let amountToSend = Number(input);
@@ -7,6 +7,9 @@ function estimateTransactionFee() {
   let totalAmount = amountToSend + fee;
   
 }
+if (isNaN(amountToSend) || amountToSend <= 0) {
+    console.log("Tafadhali ingiza kiasi halali cha pesa.");
+    return;
 // Check if the input is a valid number
 
   console.log('Sending KES 500');
@@ -18,5 +21,6 @@ console.log('Send Money Securely!');
 console.log('Sending KES 2000');
 console.log('Calculated Transaction Fee: KES 30');
 console.log('Total amount to be debited:KES 2030');
+}
 
 
