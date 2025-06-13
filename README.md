@@ -1,57 +1,52 @@
+# 💻 Week 1 Code Challenge
 
-Code-Challenge-1⭐
-Week One Code Challenge
-Welcome to the Week One Code Challenge! This set of beginner-friendly tasks is designed to help you strengthen your programming skills through real-world examples. Each challenge focuses on solving a simple problem using inputs, calculations, and outputting results to the console.
+Welcome to the *Week 1 Code Challenge!*  
+This challenge set is designed to help you sharpen your programming skills by working on real-world examples. Each task focuses on user input, performing calculations, and displaying results in the console.
 
-🚩 Challenge 1:
-Ingredient Calculator - Kenyan Chai Description: Create a simple calculator that helps determine the ingredients needed to prepare a specific number of cups of Kenyan chai.
+---
 
-How It Works: Prompts the user to input the number of chai cups they want to make.
+## 📌 Challenge 1: Kenyan Chai Ingredient Calculator
 
-Calculates the quantity of each ingredient required:
+*Overview:*  
+Create a simple program that calculates how much of each ingredient is needed to prepare a given number of cups of Kenyan chai.
 
-Water
+*How It Works:*  
+- Prompts the user to enter how many cups of chai they want to make.
+- Calculates the quantity needed for each of the following ingredients:
+  - Water  
+  - Milk  
+  - Tea leaves  
+  - Sugar
+- Displays the calculated amounts in the console.
 
-Milk
+---
 
-Tea leaves
+## 🛵 Challenge 2: Boda Boda Fare Calculator
 
-Sugar
+*Overview:*  
+Build a program to estimate the cost of a boda boda ride based on the distance traveled.
 
-Displays the results in the console.
+*How It Works:*  
+- Prompts the user to input the distance of the trip in kilometers.
+- Uses the distance to calculate the estimated fare.
+- Outputs the total fare to the console.
 
-🛵 Challenge 2:
-Bodaboda Ride Fare Estimator Description: This program estimates the fare for a boda boda ride based on distance traveled.
+---
 
-How It Works: Prompts the user to input the distance of the trip in kilometers.
+## 🐢 Challenge 3: Mobile Money Transaction Fee Calculator
 
-Calculates the estimated fare using the provided distance.
+*Overview:*  
+Develop a program that estimates the transaction fees for sending money through a mobile money service.
 
-Outputs the total fare to the console.
+*How It Works:*  
+- Prompts the user to enter the amount of money they want to send.
+- Calculates the transaction fee based on predefined rules.  
+  (Be sure to specify the rules in your code or documentation.)
+- Displays the transaction fee and total amount to be sent in the console.
 
-💸 Challenge 3:
-Mobile Money Transaction Fee Estimator Description: Develop a simple estimator to calculate the fees associated with sending money through a mobile money service.
+---
 
-How It Works: Prompts the user to enter the amount of money they wish to send.
-
-Calculates the transaction fee using the following rules:
-
-1.5% of the amount
-
-Minimum fee: KES 10
-
-Maximum fee: KES 70
-
-Computes the total amount to be debited (amount + fee).
-
-Displays both the fee and the total debited amount to the console.
-
-✅ Goals: Practice user input handling
-
-Apply basic arithmetic and conditionals
-
-Display results clearly to the user
-
-Happy coding! 🚀 
-Author Ivy Chemutai license GNU
+Happy coding!
+Author Ivy Chemutai 
+licensed under the GNU
 
