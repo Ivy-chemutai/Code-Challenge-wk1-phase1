@@ -51,10 +51,13 @@ Estimates the transaction fee for sending money using mobile money services.
   - Total amount deducted
 
 ---
-## Project Setup
+##  Project Setup
 To run this project locally:
-  1. Clone the repository:
-  2. Open index.html
+
+1. Clone the repository  
+2. Open `index.html` in a browser  
+3. Open the browser console to run the functions
+
      
 ##  Project  Structure
 ```text
@@ -66,5 +69,7 @@ Code-Challanga-wk1-phase1/
 
 Happy coding!
 Author Ivy Chemutai ,
-licensed under the GNU License,
+## License
+Licensed under the [GNU General Public License](https://www.gnu.org/licenses/).
+
 
