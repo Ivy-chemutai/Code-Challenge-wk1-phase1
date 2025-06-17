@@ -57,6 +57,11 @@ To run this project locally:
 1. Clone the repository  
 2. Open `index.html` in a browser  
 3. Open the browser console to run the functions
+4. Call any function.
+   * calculateChaiIngredients()
+    *calculateBodaFare()
+    *calculateMobileMoneyFee()
+
 
      
 ##  Project  Structure
