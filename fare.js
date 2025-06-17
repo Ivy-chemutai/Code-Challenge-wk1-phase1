@@ -1,27 +1,29 @@
-//  Calculates and displays the cost of a boda boda ride based on the distance
+// fare.js
+// This function calculates boda boda fare using distance and fixed rates
 function calculateBodaFare() {
-  // Prompt user to enter trip distance in kilometers
-  const distanceInKm = parseFloat(prompt("Unafika wapi Mkubwa? Kilometer ngapi?"));
+  // Ask user for distance in kilometers
+  const distance = parseFloat(prompt("Enter distance in kilometers:"));
 
-  // Validate input
-  if (isNaN(distanceInKm) || distanceInKm <= 0) {
-    console.log(" Please enter a valid distance (greater than 0 km).");
+  // Check if input is valid
+  if (isNaN(distance) || distance <= 0) {
+    console.log("Please enter a valid distance greater than 0.");
     return;
   }
 
-  const baseFare = 50;                   // Flat base charge
-  const chargePerKm = 15;                // Per km rate
-  const distanceCharge = distanceInKm * chargePerKm; // Additional based on distance
-  const totalFare = baseFare + distanceCharge;       // Total fare calculation
+  // Fare calculation: base fare + charge per km
+  const baseFare = 50;        // flat fee in KES
+  const perKmRate = 15;       // charge per kilometer in KES
+  const distanceFare = distance * perKmRate;
+  const totalFare = baseFare + distanceFare;
 
-  // Display the fare breakdown
-  console.log(Ride details:);
-  console.log(• Distance: ${distanceInKm} km);
-  console.log(• Base fare: KES ${baseFare});
-  console.log(• Distance charge (@ KES ${chargePerKm}/km): KES ${distanceCharge});
-  console.log(• Total fare: KES ${totalFare});
-  console.log(" Panda Pikipiki!");
+  // Show fare breakdown
+  console.log("Fare Details:");
+  console.log(`- Distance: ${distance} km`);
+  console.log(`- Base Fare: KES ${baseFare}`);
+  console.log(`- Distance Charge: KES ${distanceFare}`);
+  console.log(`- Total Fare: KES ${totalFare}`);
 }
+
 
 
 
