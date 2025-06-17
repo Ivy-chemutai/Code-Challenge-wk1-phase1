@@ -51,31 +51,31 @@ Estimates the transaction fee for sending money using mobile money services.
   - Total amount deducted
 
 
-##  Project Setup
+## Project Setup
 To run this project locally:
 
 1. Clone the repository  
 2. Open `index.html` in a browser  
-3. Open the browser console to run the functions
-4. Call any function.
-   * calculateChaiIngredients()
-    *calculateBodaFare()
-    *calculateMobileMoneyFee()
+3. Open the browser console  
+4. Click the buttons or run functions directly:
+   - `calculateChaiIngredients()`
+   - `calculateBodaFare()`
+   - `estimateTransactionFee()`
+
      
-##  Project  Structure
-```text
-Code-Challanga-wk1-phase1/
-*chaiCalculator.js #calculates  chai ingredients per cup
-*bodaFareCalculator.js #Calculates boda boda fare based on distance
-*transactionFeeEstimator. JS # Estimates mobile money transaction fees
+## Project Structure
+Code-Challenge-wk1-phase1/
+  -index.html
+  -chai.js                # Calculates chai ingredients
+  -fare.js                # Calculates boda fare
+  -fee.js                 # Estimates mobile money transaction fees
 
 
-#Author
-Ivy Chemutai,
+## Author
+Ivy Chemutai
 
 ## License
 Licensed under the [GNU General Public License](https://www.gnu.org/licenses/).
 
 Happy Coding!
-
 
