@@ -72,9 +72,12 @@ Code-Challanga-wk1-phase1/
 *transactionFeeEstimator. JS # Estimates mobile money transaction fees
 
 
-Happy coding!
-Author Ivy Chemutai ,
+#Author
+Ivy Chemutai,
+
 ## License
 Licensed under the [GNU General Public License](https://www.gnu.org/licenses/).
+
+Happy Coding!
 
 
