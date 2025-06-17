@@ -54,8 +54,7 @@ Estimates the transaction fee for sending money using mobile money services.
 ## Project Setup
 To run this project locally:
   1. Clone the repository:
-    ```bash
-   git clone
+  2. Open index.html
      
 ##  Project  Structure
 ```text
