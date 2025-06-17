@@ -1,32 +1,24 @@
-// Chai Calculator
-// Function to calculate the ingredients needed for Chai Bora
-function calculateChaiIngredients(){
-    const input= prompt('Karibu! How many cups of Chai Bora would you like tomake?');
-    const numberOfCups= Number(input);
-    }
-    // Check if the input is a valid number
-if(isNaN(numberOfCups) || numberOfCups <= 0){
-    console.log('Please enter a valid number of cups.');
+//  Calculates ingredients needed for Kenyan chai based on user input
+function  calculateChaiIngredients() {
+  // Prompt user for the desired number of cups
+  const numberOfCups = parseInt(prompt("Karibu! How many cups of Chai Bora would you like to make?"));
+
+  // Validate input
+  if (isNaN(numberOfCups) || numberOfCups <= 0) {
+    console.log(" Please enter a valid number of cups (greater than 0).");
     return;
+  }
+
+  // Each cup requires:
+  const water = numberOfCups * 200;     // 200 ml water per cup
+  const milk = numberOfCups * 50;       // 50 ml milk per cup
+  const teaLeaves = numberOfCups;       // 1 tablespoon tea leaves per cup
+  const sugar = numberOfCups * 2;       // 2 teaspoons sugar per cup
+
+  // Display the calculated ingredients
+  console.log(To make ${numberOfCups} cups of Kenyan Chai, you will need:);
+  console.log(• Water: ${water} ml);
+  console.log(• Milk: ${milk} ml);
+  console.log(• Tea Leaves (Majani): ${teaLeaves} tablespoons);
+  console.log(• Sugar (Sukari): ${sugar} teaspoons);
 }
-// Calculate the ingredients needed for the specified number of cups
-const waterPerCup =600;
-const milkPerCup =150;
-const teaLeavesPerCup = 3;
-const sugarPerCup =6;
-
-// Calculate total ingredients based on the number of cups
-const totalWater =waterPerCup*3;
-const totalMilk =milkPerCup*3;
-const  totalTeaLeaves =teaLeavesPerCup*3;
-const  totalSugar = sugarPerCup*3;
-
-// Display the results
-console.log('To make {3}cups of Kenyan Chai, you will need:');
-console.log('Water:{600} ml');
-console.log('Milk:{150} ml');
-console.log('Tea Leaves (Majani):{3} tablespoon');
-console.log('sugar (Sukari):{6} teaspoon');
-console.log('Enjoy your Chai Bora!');
-
-
