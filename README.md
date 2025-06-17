@@ -1,7 +1,7 @@
 #  Week 1 Code Challenge
 
 Welcome to the *Week 1 Code Challenge!*  
-This project contains three beginner-friendly JavaScript programs focused on user interaction, basic calculations, and output via the browser or console.
+This project contains chaiCalculator, bodaFareCalculator, and mobileMoneyEstimator JavaScript programs focused on user interaction, basic calculations, and output via the browser or console.
 
 ---
 
@@ -65,6 +65,6 @@ Code-Challanga-wk1-phase1/
 
 
 Happy coding!
-Author Ivy Chemutai 
-licensed under the GNU
+Author Ivy Chemutai ,
+licensed under the GNU License,
 
