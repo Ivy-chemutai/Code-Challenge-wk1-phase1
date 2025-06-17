@@ -1,50 +1,69 @@
-# 💻 Week 1 Code Challenge
+#  Week 1 Code Challenge
 
 Welcome to the *Week 1 Code Challenge!*  
-This challenge set is designed to help you sharpen your programming skills by working on real-world examples. Each task focuses on user input, performing calculations, and displaying results in the console.
+This project contains three beginner-friendly JavaScript programs focused on user interaction, basic calculations, and output via the browser or console.
 
 ---
 
-## 📌 Challenge 1: Kenyan Chai Ingredient Calculator
+##  Challenge 1: Kenyan Chai Ingredient Calculator
 
 *Overview:*  
-Create a simple program that calculates how much of each ingredient is needed to prepare a given number of cups of Kenyan chai.
+This program calculates the amount of each ingredient needed to prepare a given number of cups of Kenyan chai.
 
-*How It Works:*  
-- Prompts the user to enter how many cups of chai they want to make.
-- Calculates the quantity needed for each of the following ingredients:
-  - Water  
-  - Milk  
-  - Tea leaves  
-  - Sugar
-- Displays the calculated amounts in the console.
+*How It Works:*
+- Prompts the user to enter the number of cups.
+- Calculates:
+  -  Water: 200ml per cup
+  -  Milk: 50ml per cup
+  -  Tea Leaves: 1 tbsp per cup
+  -  Sugar: 2 tsp per cup
+- Outputs a summary of ingredient quantities.
 
 ---
 
-## 🛵 Challenge 2: Boda Boda Fare Calculator
+##  Challenge 2: Boda Boda Fare Calculator
 
 *Overview:*  
-Build a program to estimate the cost of a boda boda ride based on the distance traveled.
+Estimates the fare for a boda boda ride based on distance.
 
-*How It Works:*  
-- Prompts the user to input the distance of the trip in kilometers.
-- Uses the distance to calculate the estimated fare.
-- Outputs the total fare to the console.
+*How It Works:*
+- Prompts the user to enter the trip distance in kilometers.
+- Calculates the fare using:
+  -  Base Fare: KES 50
+  -  Rate per km: KES 15
+- Displays the total fare.
 
 ---
 
-## 🐢 Challenge 3: Mobile Money Transaction Fee Calculator
+##  Challenge 3: Mobile Money Transaction Fee Calculator
 
 *Overview:*  
-Develop a program that estimates the transaction fees for sending money through a mobile money service.
+Estimates the transaction fee for sending money using mobile money services.
 
-*How It Works:*  
-- Prompts the user to enter the amount of money they want to send.
-- Calculates the transaction fee based on predefined rules.  
-  (Be sure to specify the rules in your code or documentation.)
-- Displays the transaction fee and total amount to be sent in the console.
+*How It Works:*
+- Prompts the user to enter the amount to send.
+- Fee is calculated based on:
+  -  1.5% of the amount
+  -  Minimum fee: KES 10
+  -  Maximum fee: KES 70
+- Displays:
+  - Fee charged
+  - Total amount deducted
 
 ---
+## Project Setup
+To run this project locally:
+  1. Clone the repository:
+    ```bash
+   git clone
+     
+##  Project  Structure
+```text
+Code-Challanga-wk1-phase1/
+*chaiCalculator.js #calculates  chai ingredients per cup
+*bodaFareCalculator.js #Calculates boda boda fare based on distance
+*transactionFeeEstimator. JS # Estimates mobile money transaction fees
+
 
 Happy coding!
 Author Ivy Chemutai 
