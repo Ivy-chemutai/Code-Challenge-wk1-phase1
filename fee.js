@@ -1,26 +1,24 @@
-// Function to estimate the transaction fee based on the amount sent
+//  Estimates mobile money transaction fee and displays total debit amount
 function estimateTransactionFee() {
-  let input = prompt("Unatuma Ngapi?")
-  let amountToSend = Number(input);
-  let fee = amountToSend * 0.015;
-  fee = Math.max(10, Math.min(fee, 70)); 
-  let totalAmount = amountToSend + fee;
-  
-}
-if (isNaN(amountToSend) || amountToSend <= 0) {
-    console.log("Tafadhali ingiza kiasi halali cha pesa.");
+  // Prompt user for amount they want to send
+  const amountToSend = parseFloat(prompt("Unatuma Ngapi? (KES)"));
+
+  // Validate input
+  if (isNaN(amountToSend) || amountToSend <= 0) {
+    console.log(" Please enter a valid amount (greater than 0).");
     return;
-// Check if the input is a valid number
+  }
 
-  console.log('Sending KES 500');
-console.log('Calculated Transaction Fee: KES 10');
-console.log ('Total amount to be debited: KES 510')
-console.log('Send Money Securely!');
+  // Calculate fee: 1.5% of the amount, but not less than KES 10 or more than KES 70
+  const rawFee = amountToSend * 0.015;
+  const fee = Math.max(10, Math.min(70, rawFee));
 
-// // Display the results
-console.log('Sending KES 2000');
-console.log('Calculated Transaction Fee: KES 30');
-console.log('Total amount to be debited:KES 2030');
-}
+  const total = amountToSend + fee; // Total amount debited
 
+  // Display transaction details
+  console.log(Transaction details:);
+  console.log(• Amount to send: KES ${amountToSend});
+  console.log(• Transaction fee: KES ${fee});
+  console.log(• Total to be debited: KES ${total});
+  console.log("Send Money Securely!");
 
