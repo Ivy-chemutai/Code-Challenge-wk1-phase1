@@ -3,7 +3,7 @@
 Welcome to the *Week 1 Code Challenge!*  
 This project contains chaiCalculator, bodaFareCalculator, and mobileMoneyEstimator JavaScript programs focused on user interaction, basic calculations, and output via the browser or console.
 
----
+
 
 ##  Challenge 1: Kenyan Chai Ingredient Calculator
 
@@ -19,7 +19,7 @@ This program calculates the amount of each ingredient needed to prepare a given 
   -  Sugar: 2 tsp per cup
 - Outputs a summary of ingredient quantities.
 
----
+
 
 ##  Challenge 2: Boda Boda Fare Calculator
 
@@ -33,7 +33,7 @@ Estimates the fare for a boda boda ride based on distance.
   -  Rate per km: KES 15
 - Displays the total fare.
 
----
+
 
 ##  Challenge 3: Mobile Money Transaction Fee Calculator
 
@@ -50,7 +50,7 @@ Estimates the transaction fee for sending money using mobile money services.
   - Fee charged
   - Total amount deducted
 
----
+
 ##  Project Setup
 To run this project locally:
 
@@ -61,8 +61,6 @@ To run this project locally:
    * calculateChaiIngredients()
     *calculateBodaFare()
     *calculateMobileMoneyFee()
-
-
      
 ##  Project  Structure
 ```text
