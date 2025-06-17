@@ -1,26 +1,26 @@
 // chai.js
-// Calculates ingredients needed for Kenyan chai based on user input
+// This function calculates how much water, milk, tea leaves, and sugar is needed for a given number of chai cups
 function calculateChaiIngredients() {
-  // Prompt the user for the number of cups
-  const numberOfCups = parseInt(prompt("Karibu! How many cups of Chai Bora would you like to make?"));
+  // Ask user how many cups of chai they want
+  const numberOfCups = parseInt(prompt("How many cups of chai do you want to make?"));
 
-  // Check if the input is a valid positive number
+  // Check if input is a valid positive number
   if (isNaN(numberOfCups) || numberOfCups <= 0) {
-    console.log("Please enter a valid number of cups (greater than 0).\n");
+    console.log("Please enter a valid number greater than 0.");
     return;
   }
 
   // Ingredient calculations per cup
-  const water = numberOfCups * 200;       // 200 ml water per cup
-  const milk = numberOfCups * 50;         // 50 ml milk per cup
-  const teaLeaves = numberOfCups;         // 1 tablespoon per cup
-  const sugar = numberOfCups * 2;         // 2 teaspoons per cup
+  const water = numberOfCups * 200; // milliliters of water
+  const milk = numberOfCups * 50;   // milliliters of milk
+  const teaLeaves = numberOfCups;   // tablespoons of tea leaves
+  const sugar = numberOfCups * 2;   // teaspoons of sugar
 
-  // Output the required ingredients
-  console.log(`\nTo make ${numberOfCups} cups of Kenyan Chai, you will need:`);
+  // Output the required ingredient amounts
+  console.log(`To make ${numberOfCups} cups of chai:`);
   console.log(`- Water: ${water} ml`);
   console.log(`- Milk: ${milk} ml`);
-  console.log(`- Tea Leaves (Majani): ${teaLeaves} tablespoons`);
-  console.log(`- Sugar (Sukari): ${sugar} teaspoons\n`);
+  console.log(`- Tea Leaves: ${teaLeaves} tbsp`);
+  console.log(`- Sugar: ${sugar} tsp`);
 }
 
